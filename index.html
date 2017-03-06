@@ -13,23 +13,24 @@
 <!-- Set the page to the width of the device and set the zoon level -->
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+<!--<script type="text/javascript" src="assets/twitterbootstrap/js/bootstrap-tab.js"></script>-->
  
 
     <!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">-->
 
     <title>Saurabh Marathe</title>
   <style>
-  
+  .tab-content{
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+  }
   </style>
 
   <!--<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>-->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-<script>
-$(theCarousel).load (function() {
-auto:800;
-speed:1000;
-});
-</script>	
+	
   </head>
 
   <body>
@@ -42,27 +43,117 @@ speed:1000;
 <div class="jumbotron">
 <div class="page-header">
 <h1 align="center">Saurabh Marathe</h1>
-<h4 align="center"><a href="#">Machine learning</a><b>|</b><a href="#">Data Science</a><b>|</b><a href="#">Software Enginnering</a><b>|</b><a href="#">Cloud Computing</a></h4>
+<h4 align="center"><a href="#machinelearning">Machine learning</a><b>|</b>
+<a href="#datascience">Data Science</a><b>|</b><a href="#softwareengineering">Software Enginnering</a><b>|</b><a href="#cloudcomputing">Cloud Computing</a></h4>
 </div>
 </div>
 
 
-<div class="container-fluid">
+<!--<div class="container-fluid">-->
 <section>
-<div class="jumbotron" height="1000" width="200">
-<p><h2 align="middle">Namaste</h2></p>
+<div class="jumbotron">
+<p style="text-align:center"><h2 align="middle">Namaste</h2></p>
 <center><img src="images/saurabh.jpg" class="img-circle img-responsive" alt="Responsive Image" width="200" height="200"/></center>
-<center><h3><span style="font-size: 40% important; color: #aaaaaa;">Hello, I am passionate bout Machine Learning and Software Development. Also, I have knowledge and experience in Data Science and Cloud Computing.</span></h3></center>
+<center><h3><span style="font-size: 40% important; color: #aaaaaa;">Hello, I am passionate about Machine Learning and Software Development. Also, I have knowledge and experience in Data Science and Cloud Computing.</span></h3></center>
 <center><h3><span style="font-size: 40% important; color: #aaaaaa;">From July, 2014-July 2016, I was employed as Systems Engineer with Infosys technologies, where I developed spftware for American Insurance comany Aetna Inc.</span></h3></center>
 <center><h3><span style="font-size: 40% important; color: #aaaaaa;">Currently I am a Graduate Student for MS in CS course at San Jose State University. Also, I am working as Research Assistant on two machine learning projects at the University.</span></h3></center>
 <center><h3><span style="font-size: 40% important; color: #aaaaaa;">I have done a lot of personal projects in machine learning, data science and enterprise software development.</span></h3></center>
-<center><h3><span style="font-size: 40% important; color: #aaaaaa;">I also have two patents for inventions of software systems related to machine learning</span></h3></center>
+<center><h3><span style="font-size: 40% important; color: #aaaaaa;">I also have two patents for inventions of software systems related to machine learning.</span></h3></center>
 <center><h3><span style="font-size: 40% important; color: #aaaaaa;">Please dvelve deep and scroll down to know more about me!</span></h3></center>
 </div>
 </section>
+<!--</div>-->
+
+<div class="contaier-fluid">
+<div class="jumbotron">
+<ul class="nav nav-pills" role="navigation">
+<li class="active"><a href="#machinelearning" data-toggle="tab"><h2>Machine Learning</h2></a></li>
+<li><a href="#datascience" data-toggle="tab"><h2>Data Science</h2></a></li>
+<li><a href="#softwareengineering" data-toggle="tab"><h2>Software Engineering</h2></a></li>
+<li><a href="#cloudcomputing" data-toggle="tab"><h2>Cloud Computing<h2></a></li>
+</ul>
+<div class="tab-content">
+<div id="machinelearning" class="tab-pane fade in active">
+<p><h3>Research Experience</h3></p>
+<ol>
+<li><p style="font-size:90%">Working as Research Assistant under <a href="http://www.cs.sjsu.edu/~wesley/">Prof. Leonard Wesley</a> on project involving analysis of images of microarray chips, which are used in DNA analysis.</p></li>
+<li><p style="font-size:90%">Working as Research Assistant under <a href="http://www.sjsu.edu/people/steven.silver/">Prof. Steven Silver</a> on project involving development of Decision Support systems that will scan company meeting debriefs and help companies make better decisions.</p></li>
+<li><p style="font-size:90%"><a href="websites/Website_Project_Snapshot.pdf">Brand Analysis Website</a> - A website that would fetch real time tweetes and facebook posts of a brand/entity and do context based feature-analysis and sentiment analysis of the product/entity based on tweets/posts retrieved (system patented -  Indian Patent Appln No: 201721004567)"</p></li>
+<li><p style="font-size:90%">DBMS system using Neural networks - This is a research project involving development of DBMS software to store data(like text,images) using Neural networks (system patented -  Indian Patent Appln No: 201721006423)</p></li>
+</ol>
+<p><h3>Projects:</h3></p>
+<ol>
+<li><p style="font-size:90%">Developing a Hopfield Neural Network to solve a Sudoku puzzle- project done a spart of Advanced AI course taken in 1st sem of  Gradute studies at San Jose State University (Python project)</p></li>
+<li><p style="font-size:90%">Product Analysis using customer reviews - My final year undergraduate project where Naive Bayes and Rule Based techniques were used to do sentiment analysis of customer reviews received about a particular product <a href="http://troindia.in/journal/ijcesr/ijcesr/paper14.pdf">Paper published</a></p></li>
+</ol>
+
+</div>
+<div id="datascience" class="tab-pane fade">
+<p>Data Science</p>
+<p><h3>Projects:</h3></p>
+<ol>
+<li><p style="font-size:90%">Developing a live brand sentiment analyzer for my university San Jose State University using IBM Bluemix</p></li>
+<li><p style="font-size:90%"><a href="websites/Website_Project_Snapshot.pdf">Brand Analysis Website</a> - A website that would fetch real time tweetes and facebook posts of a brand/entity and do context based feature-analysis and sentiment analysis of the product/entity based on tweets/posts retrieved (system patented -  Indian Patent Appln No: 201721004567)"</p></li>
+<li><p style="font-size:90%">Developed various models for analysis of variety of datastes from UCI using SparkML</p></li>
+<li><p style="font-size:90%">Used MapReduce texhnique in Haddop to calculate the average price of a house in a neighbourhood</p></li>
+<li><p style="font-size:90%">Developed a Kafka queue to handle stream of data between producer and consumer , which were part of a Enron email dataset analyser system</p></li>
+<li><p style="font-size:90%">Designed and built schema-based datasets on Hive, HBase</p></li>
+</ol>
+
+</div>
+<div id="softwareengineering" class="tab-pane fade">
+<p>Software Engineering</p>
+<p><h3>Infosys Projects:(All projects are proprietary software of Aetna Inc, a American insurance company, and client of Infosys)</h3></p>
+<ol>
+<li><p style="font-size:90%"><b>Plan Sponsor Application:</b>Reduced insurance processing time by 50% by designing automated system for classification of problems faced in enrollment. Used Natural Language Processing here</p></li>
+<li><p style="font-size:90%"><b>Aetna Voice Advantage:</b>Implemented a SOAP based service and upgraded project to better framework in very short period in 2 weeks of stringent time. Received “Employee Award” for this work </p></li>
+<li><p style="font-size:90%"><b>DocFind Search Engine:</b>Implemented ‘internationalization’ to make Spanish version of Aetna Inc website to help millions of Spanish customers have better experience</p></li>
+</ol>
+<p><h3>Individual Software Engineering projects:(Full Stack development</h3></p>
+<ol>
+<li><p style="font-size:90%"><b>Java MVC stack:</b><a href="websites/Website_Project_Snapshot.pdf">Brand Analysis Website</a> - A website that would fetch real time tweetes and facebook posts of a brand/entity and do context based feature-analysis and sentiment analysis of the product/entity based on tweets/posts retrieved (system patented -  Indian Patent Appln No: 201721004567)"</p></li>
+<li><p style="font-size:90%"><b>MEAN stack</b>Designed and implemented a dating website using MongoDB, Express, AngularJS, NodeJS</p></li>
+</ol>
+
+</div>
+<div id="cloudcomputing" class="tab-pane fade">
+<p>Cloud Computing/Wireless Networking</p>
+<p><h3>Projects:(Cloud Computing)</h3></p>
+<ol>
+<li><p style="font-size:90%">Deployed and understood node and cluster paradigms on Prism(proprietary software of <a href="https://www.nutanix.com">Nutanix</a>)</p></li>
+<li><p style="font-size:90%">Application of Machine Learning techniques for Leader Election (ongoing project)</p></li>
+<li><p style="font-size:90%">Studied various Cloud computing paradigms: Zookeeper, Map-Reduce, Curator</p></li>
+</ol>
+<p><h3>Projects:(Wireless Networking)</h3></p>
+<ol>
+<li><p style="font-size:90%">Simulated various ethernet topologies using OpenDaylight</p></li>
+<li><p style="font-size:90%">Simulated various Wireless as well as ethernet topologies using various protocols using software NS3</p></li>
+<li><p style="font-size:90%">Studied concepts of OpenFlow, SDN, NFV through</p></li>
+<li><p style="font-size:90%">Also studeid network standards like LTE (4G,5G) as well as various routing protocol strategies like OSPF</p></li>
+</ol>
+</div>
+</div>
+</div>
 </div>
 
-    
+<div class="container-fluid">
+<div class="jumbotron">
+<p><h2 align="middle">Useful Links</h2></p>
+<p sttyle="text-align:center"><a class="btn btn-block btn-social btn-linkedin" alt="View Saurabh's profile on Linkedin" href="https://www.linkedin.com/in/saurabhmarathe"><span class="fa fa-linkedin">::before</span></a>
+<a class="btn btn-block btn-social btn-github" alt="View Saurabh's profile on Github" href="https://github.com/SAURABHMARATHE"></a>
+</p>
+</div>
+</div>
 
+<div class="container-fluid">
+<div class="jumbotron">
+<p style="text-align:center"><h2 style="text-align:center">Contact</h2></p>
+<p><h4 style="text-align:left"><span class="glyphicon glyphicon-envelope"/></h4><h4 style="text-align:right"><span class="glyphicon glyphicon-earphone"/></h4></p>
+<p><h4 style="text-align:left">saurabhmarathe1992@gmail.com</h4><h4 style="text-align:right">+1-(669)-265-5167</h4></p>
+</div>
+</div>
+
+<script src="https://maxcdn/bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>
